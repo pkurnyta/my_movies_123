@@ -76,6 +76,8 @@ GEM
     oj (2.9.0)
     pg (0.17.1)
     polyglot (0.3.4)
+    purecss-rails (0.3.0)
+      railties (>= 3.2.6, < 5)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -172,6 +174,7 @@ DEPENDENCIES
   jquery-rails
   oj
   pg
+  purecss-rails
   quiet_assets
   rails (= 4.1.0)
   rspec-rails (~> 3.0.0.beta)
