@@ -28,6 +28,7 @@ end
 group :production do
   gem 'thin'
   gem 'pg'
+  gem 'rails_12factor'
 end
 #Movie & TV API Ruby wrappers
 gem 'themoviedb' #, '= 0.0.21'
@@ -40,3 +41,5 @@ gem 'awesome_print'
 gem 'purecss-rails'
 
 gem 'dotenv-rails', groups: [:development, :test]
+
+
