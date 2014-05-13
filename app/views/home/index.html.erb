@@ -9,7 +9,7 @@
 	</br>
 	<div class="now_playing">
 		<div class="now_playing_title">Now Playing</div></br>
-		<% @now_playing.first(12).each do |movie| %>
+		<% @now_playing.first(15).each do |movie| %>
 			<% if movie %>
 				<%= link_to movie_path(movie['id']) do %>
 					<%= image_tag("#{@configuration.base_url}w154#{movie['poster_path']}") if movie['poster_path'] %>
