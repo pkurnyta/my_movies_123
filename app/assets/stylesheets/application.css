@@ -12,13 +12,5 @@
  *
  *= require_tree .
  *= require_self
+ *= require purecss
  */
-
-body{
-	background-color: #3A2E85;
-}
-
-.searchInput {
-	font-size: 24px;
-	text-align: center;
-}
