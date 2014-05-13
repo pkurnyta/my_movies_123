@@ -1,4 +1,11 @@
-
+/*
+  =require purecss/base
+  =require purecss/buttons
+  =require purecss/forms
+  =require purecss/grids
+  =require purecss/menus
+  =require purecss/tables
+*/
 @media screen and (min-width: 35.5em) {
     .pure-u-sm-1,
     .pure-u-sm-1-1,
