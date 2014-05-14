@@ -1,12 +1,13 @@
-# require 'spec_helper'
+require 'spec_helper'
 
-# describe SearchController do
+describe SearchController do
 
-#   describe "GET 'index'" do
-#     it "returns http success" do
-#       get 'index'
-#       expect(response).to be_success
-#     end
-#   end
+  before(:each) do
+    @movie = Tmdb::Movie.find('batman')
+  end
+    
+  it "should return movies" do
+    response.should be_success
+  end
 
-# end
+end
