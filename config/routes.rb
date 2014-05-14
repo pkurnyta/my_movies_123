@@ -2,8 +2,6 @@ Rails.application.routes.draw do
 
   get 'people/show'
 
-  get 'movied/show'
-
   get 'search/index'
 
   get 'home/index'
