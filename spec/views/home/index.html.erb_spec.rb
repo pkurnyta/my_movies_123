@@ -8,12 +8,22 @@ describe "home/index.html.erb" do
 
   it "displays search" do
     render
-    expect(rendered).to include("Playing")
+    expect(rendered).to include("Now Playing")
+  end
+
+  it "displays search text?" do
+    render
+    expect(rendered).to include("Search for a movie")
   end
 
   it "displays search input?" do
     render
-    expect(rendered).to include("searchInput")
+    expect(rendered).to include("input-xlarge searchInput")
+  end
+
+  it "displays images?" do
+    render
+    expect(rendered).to include("http://image.tmdb.org/")
   end
 
 end
