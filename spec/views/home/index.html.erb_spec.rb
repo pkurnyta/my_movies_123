@@ -16,12 +16,12 @@ describe "home/index.html.erb" do
     expect(rendered).to include("Search for a movie")
   end
 
-  it "displays search input?" do
+  it "displays search input correctly?" do
     render
     expect(rendered).to include("input-xlarge searchInput")
   end
 
-  it "displays images?" do
+  it "displays images correctly?" do
     render
     expect(rendered).to include("http://image.tmdb.org/")
   end
