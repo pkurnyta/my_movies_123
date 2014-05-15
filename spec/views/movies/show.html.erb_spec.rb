@@ -139,11 +139,15 @@ describe "movies/show.html.erb" do
     expect(rendered).to include("Casts")
   end
 
-  it "displays casts correctly?" do
+  it "displays casts names correctly?" do
     render
-    expect(rendered).to include("Idtxxjxmjgu7jyrjsvepnqblhv1")
     expect(rendered).to include("Gwyneth Paltrow")
     expect(rendered).to include("as Aldrich Killian")
+  end
+
+  it "displays casts image correctly?" do
+    render
+    expect(rendered).to include("Idtxxjxmjgu7jyrjsvepnqblhv1")
   end
 
   it "displays similar movies title?" do
