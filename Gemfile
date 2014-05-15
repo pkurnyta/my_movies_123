@@ -30,6 +30,7 @@ group :production do
   gem 'thin'
   gem 'pg'
   gem 'rails_12factor'
+  gem 'shelly-dependencies'
 end
 #Movie & TV API Ruby wrappers
 gem 'themoviedb' #, '= 0.0.21'
