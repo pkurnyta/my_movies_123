@@ -82,7 +82,7 @@ describe "movies/show.html.erb" do
 
   it "displays rating correctly?" do
     render
-    expect(rendered).to include("6.8 from 4462 voters.")
+    expect(rendered).to include("6.8 from 4463 voters.")
   end
 
   it "displays trailer link correctly?" do
