@@ -1,6 +1,5 @@
 # MyMovies 
-<img src="https://travis-ci.org/tcywinski/my_movies_123.svg?branch=master" alt="Build Status" />
-
+[![Build Status](https://travis-ci.org/tcywinski/my_movies_123.svg?branch=master)](https://travis-ci.org/tcywinski/my_movies_123.svg?branch=master)
 ### aplikacja zaliczeniowa
 
 ##Info
