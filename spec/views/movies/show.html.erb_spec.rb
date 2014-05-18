@@ -82,7 +82,7 @@ describe "movies/show.html.erb" do
 
   it "displays rating correctly?" do
     render
-    expect(rendered).to include("6.8 from 4463 voters.")
+    expect(rendered).to include("6.8 from 4465 voters.")
   end
 
   it "displays trailer link correctly?" do
@@ -159,7 +159,7 @@ describe "movies/show.html.erb" do
     render
     expect(rendered).to include("Ph4oeizah9a40tly4d0l6aab3ms")
     expect(rendered).to include("/movies/99861")
-    expect(rendered).to include("org/t/p/w154/5QpaN7ZBAR6D3FotvEIMX0qZxHg.jpg")
+    expect(rendered).to include("org/t/p/w154/1LoT5WsN4Lc1aR7A18ciSA1LoMy.jpg")
   end
 
 end

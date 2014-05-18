@@ -111,7 +111,7 @@ describe MoviesController do
   end
 
   it "should return a vote_count" do
-    @movie.vote_count.should eq(4463)
+    @movie.vote_count.should eq(4465)
   end
 
   it "should vote_count be int" do

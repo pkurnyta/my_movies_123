@@ -14,7 +14,11 @@ http://my-movies-123.herokuapp.com/
 
 https://travis-ci.org/tcywinski/my_movies_123
 
+##Testy
 
+101 testów sprawdzających poprawność działania aplikacji.
+	- 51 testów controllers sprawdzających kompatybilność aplikacji z bazą filmów
+	- 50 testów views sprawdzających poprawność renderowania się poszczególnych widoków
 
 ##Autor
 ###Tymoteusz Cywiński
